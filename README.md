@@ -23,3 +23,11 @@
 ### Seaborn library in python is used for visualization
 ### Number of houses sold and average price was used for visualization
 ### We can compare the selling price, number of houses sold and score and verify the geniuneness of the score
+# Recordings
+
+https://user-images.githubusercontent.com/75531922/218282481-b8d223a0-04aa-4cf3-a781-32e386d25823.mp4
+
+
+https://user-images.githubusercontent.com/75531922/218282503-3e93376a-c7de-43c1-845b-a9ea4d2019b8.mp4
+
+
