@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Data</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Data</h1>
+        <table>
+            {% for row in csv %}
+                <tr>
+                    {% for column in row %}
+                        <td>{{ column }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
