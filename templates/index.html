@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Data</title>
-        <style>
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                padding: 5px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>My Data</h1>
-        <table>
-            {% for row in csv %}
-                <tr>
-                    {% for column in row %}
-                        <td>{{ column }}</td>
-                    {% endfor %}
-                </tr>
-            {% endfor %}
-        </table>
-    </body>
+<head>
+	<title>My Form</title>
+    <style>
+		form {
+			margin-top: 50px;
+			text-align: center;
+		}
+		label {
+			display: block;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		input[type=text] {
+			padding: 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 50%;
+			margin-bottom: 20px;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<form method="post" action="/process-form">
+		<label for="id">ID:</label>
+		<input type="text" id="id" name="id"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
 </html>
