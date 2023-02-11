@@ -21,4 +21,5 @@
 ### 4.To prove the accuracy of the score, a heatwave map is generated
 ### A Heatwave map is used to visualize an attribute in comparison to two other attributes
 ### Seaborn library in python is used for visualization
-### Number of houses sold and average price can be used
+### Number of houses sold and average price was used for visualization
+### We can compare the selling price, number of houses sold and score and verify the geniuneness of the score
