@@ -84,7 +84,7 @@ def process_form():
 
     rows = [row.split(',') for row in csv2.split('\n')]
     
-    return render_template('display_input.html', input_int=market_score)
+    return render_template('display.html', input_int=market_score)
 
 
 
